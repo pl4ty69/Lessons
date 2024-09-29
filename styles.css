@@ -41,7 +41,7 @@ body{
     font-size: 14px;
 }
 
-.search-bar button{
+.search-bar a{
     padding: 6px 12px;
     background-color: #007bff;
     border: none;
@@ -55,6 +55,7 @@ body{
 }
 
 #sidebar{
+    position: fixed;
     width: 200px;
     padding: 15px;
     background-color: #fff;
@@ -78,6 +79,10 @@ body{
 
 #sidebar ul li a{
     text-decoration: none;
+    color: #2e2e2e;
+}
+
+#sidebar ul li a:hover{
     color: #007bff;
 }
 
@@ -87,7 +92,7 @@ body{
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
-    margin-left: 20px;
+    margin-left: 250px;
 }
 
 #main-content h1{
